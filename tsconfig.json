@@ -12,12 +12,25 @@
     "moduleResolution": "Bundler",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
+    "tsBuildInfoFile": "./deist/.tsbuildinfo",
+    "outDir": "./dist",
     "resolveJsonModule": true,
-    "rootDir": "./src",
+    "rootDir": ".",
+    "noEmit": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "strict": true,
+    "strict": false,
     "target": "ES6",
-    "jsx": "preserve"
-  }
+    "jsx": "preserve",
+    "lib": ["DOM", "ESNext"]
+  },
+  "exclude": [
+    "./dist",
+    "./node_modules",
+    "./out",
+    "./.next",
+    "./dist",
+    "./node_modules"
+  ],
+  "include": ["./next-env.d.ts", "./**/*.ts", "./**/*.tsx"]
 }
