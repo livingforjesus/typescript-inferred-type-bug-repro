@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "tss-react": "4.9.13"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3"
+  },
+  "name": "test-client",
+  "private": true,
+  "scripts": {
+    "build": "vercel build",
+    "format": "pnpm run lint --fix",
+    "lint": "eslint --max-warnings 0 --ext .js,.ts,.jsx,.tsx . --cache --cache-strategy content",
+    "pull-vercel": "vercel pull --yes",
+    "start": "vercel dev",
+    "test": "jest",
+    "tsc": "tsc --build"
+  },
+  "type": "module"
+}

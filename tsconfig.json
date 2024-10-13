@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "composite": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "inlineSources": true,
+    "isolatedModules": true,
+    "noImplicitOverride": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES6",
+    "jsx": "preserve"
+  }
+}
